@@ -65,12 +65,6 @@ int main(void) {
             2, 3, 0 // Second Triangle
         };
 
-        // Create vertex array object and bind it
-        unsigned int vao;
-        GLCall(glGenVertexArrays(1, &vao));
-        GLCall(glBindVertexArray(vao));
-
-
         VertexArray va;
         VertexBuffer vb(positions, 4 * 2 * sizeof(float));
         VertexBufferLayout layout;
@@ -89,8 +83,9 @@ int main(void) {
 
         GLCall(int location = glGetUniformLocation(shader, "u_Color"));
         ASSERT(location != -1);
+        GLCall(glUniform4f(location, 0.8f, 0.3f, 0.8f, 1.0f));
 
-        GLCall(glBindVertexArray(0));
+        va.Unbind();
         GLCall(glUseProgram(0));
         GLCall(glBindBuffer(GL_ARRAY_BUFFER, 0));
         GLCall(glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0));
