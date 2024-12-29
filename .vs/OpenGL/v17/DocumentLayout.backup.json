@@ -70,13 +70,26 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Helpers.h",
+              "DocumentMoniker": "C:\\dev\\OpenGL\\OpenGL\\src\\Helpers.h",
+              "RelativeDocumentMoniker": "OpenGL\\src\\Helpers.h",
+              "ToolTip": "C:\\dev\\OpenGL\\OpenGL\\src\\Helpers.h",
+              "RelativeToolTip": "OpenGL\\src\\Helpers.h",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAACsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-29T09:11:01.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "VertexArray.cpp",
               "DocumentMoniker": "C:\\dev\\OpenGL\\OpenGL\\src\\VertexArray.cpp",
               "RelativeDocumentMoniker": "OpenGL\\src\\VertexArray.cpp",
               "ToolTip": "C:\\dev\\OpenGL\\OpenGL\\src\\VertexArray.cpp",
               "RelativeToolTip": "OpenGL\\src\\VertexArray.cpp",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAYwBwAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-28T05:20:38.069Z",
               "EditorCaption": ""
@@ -224,43 +237,9 @@
               "RelativeDocumentMoniker": "OpenGL\\src\\main.cpp",
               "ToolTip": "C:\\dev\\OpenGL\\OpenGL\\src\\main.cpp",
               "RelativeToolTip": "OpenGL\\src\\main.cpp",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAAsAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-14T01:14:16.854Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "c1c50596-b5c9-4cea-925c-f8ba6aca14b9",
-        "Display": 1,
-        "X": -5,
-        "Y": 28,
-        "Width": 1930,
-        "Height": 1009,
-        "WindowState": 2
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Helpers.h",
-              "DocumentMoniker": "C:\\dev\\OpenGL\\OpenGL\\src\\Helpers.h",
-              "RelativeDocumentMoniker": "OpenGL\\src\\Helpers.h",
-              "ToolTip": "C:\\dev\\OpenGL\\OpenGL\\src\\Helpers.h",
-              "RelativeToolTip": "OpenGL\\src\\Helpers.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-29T09:11:01.322Z",
               "EditorCaption": ""
             }
           ]
