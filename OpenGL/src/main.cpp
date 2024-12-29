@@ -98,10 +98,10 @@ int main(void) {
             GLCall(glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, nullptr));
 
             if (r > 1.0f) {
-                increment = -0.05f;
+                increment = -0.01f;
             }
             else if (r < 0.0f) {
-                increment = 0.05f;
+                increment = 0.01f;
             }
 
             r += increment;
