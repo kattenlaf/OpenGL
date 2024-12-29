@@ -16,7 +16,7 @@ struct ShaderProgramSource {
 };
 
 // Methods are implemented below main
-void drawTriangleLegacy(float* arr);
+void DrawTriangleLegacy(float* arr);
 static unsigned int CompileShader(unsigned int type, const std::string& source);
 static unsigned int CreateShader(const std::string& vertexShader, const std::string& fragmentShader);
 static ShaderProgramSource ParseShader(const std::string& filepath);
@@ -131,7 +131,7 @@ int main(void) {
 // draws simple triangle taking in the xy coordinates of the three vertices using legacy opengl
 // parameters float[]
 // usage -> drawTriangleLegacy(positions);
-void drawTriangleLegacy(float* arr) {
+void DrawTriangleLegacy(float* arr) {
     glBegin(GL_TRIANGLES);
     glVertex2f(arr[0], arr[1]);
     glVertex2f(arr[2], arr[3]);

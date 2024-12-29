@@ -18,7 +18,7 @@ void VertexArray::Unbind() const {
 	GLCall(glBindVertexArray(0));
 }
 
-void VertexArray::AddBuffer(const VertexBuffer& vb, const VertexBufferLayout& layout) {
+void VertexArray::AddBuffer(const VertexBuffer& vb, const VertexBufferLayout& layout) const {
 	Bind();
 	vb.Bind();
 	const auto& elements = layout.GetElements();
