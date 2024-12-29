@@ -7,28 +7,24 @@
       "RelativeMoniker": "D:0:0:{6D55FB91-A54C-45D0-8950-D46B839FF673}|OpenGL\\OpenGL.vcxproj|solutionrelative:OpenGL\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D55FB91-A54C-45D0-8950-D46B839FF673}|OpenGL\\OpenGL.vcxproj|C:\\dev\\OpenGL\\OpenGL\\src\\IndexBuffer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6D55FB91-A54C-45D0-8950-D46B839FF673}|OpenGL\\OpenGL.vcxproj|solutionrelative:OpenGL\\src\\IndexBuffer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6D55FB91-A54C-45D0-8950-D46B839FF673}|OpenGL\\OpenGL.vcxproj|C:\\dev\\OpenGL\\OpenGL\\src\\Helpers.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6D55FB91-A54C-45D0-8950-D46B839FF673}|OpenGL\\OpenGL.vcxproj|solutionrelative:OpenGL\\src\\Helpers.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D55FB91-A54C-45D0-8950-D46B839FF673}|OpenGL\\OpenGL.vcxproj|C:\\dev\\OpenGL\\OpenGL\\src\\Renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6D55FB91-A54C-45D0-8950-D46B839FF673}|OpenGL\\OpenGL.vcxproj|solutionrelative:OpenGL\\src\\Renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6D55FB91-A54C-45D0-8950-D46B839FF673}|OpenGL\\OpenGL.vcxproj|C:\\dev\\OpenGL\\OpenGL\\src\\VertexArray.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6D55FB91-A54C-45D0-8950-D46B839FF673}|OpenGL\\OpenGL.vcxproj|solutionrelative:OpenGL\\src\\VertexArray.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\dev\\OpenGL\\Dependencies\\GLFW\\include\\GLFW\\glfw3.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dependencies\\GLFW\\include\\GLFW\\glfw3.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6D55FB91-A54C-45D0-8950-D46B839FF673}|OpenGL\\OpenGL.vcxproj|C:\\dev\\OpenGL\\OpenGL\\src\\VertexBufferLayout.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6D55FB91-A54C-45D0-8950-D46B839FF673}|OpenGL\\OpenGL.vcxproj|solutionrelative:OpenGL\\src\\VertexBufferLayout.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\dev\\OpenGL\\Dependencies\\GLEW\\include\\GL\\glew.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dependencies\\GLEW\\include\\GL\\glew.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6D55FB91-A54C-45D0-8950-D46B839FF673}|OpenGL\\OpenGL.vcxproj|C:\\DEV\\OPENGL\\DEPENDENCIES\\GLEW\\INCLUDE\\GL\\GLEW.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6D55FB91-A54C-45D0-8950-D46B839FF673}|OpenGL\\OpenGL.vcxproj|solutionrelative:DEPENDENCIES\\GLEW\\INCLUDE\\GL\\GLEW.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6D55FB91-A54C-45D0-8950-D46B839FF673}|OpenGL\\OpenGL.vcxproj|C:\\dev\\OpenGL\\OpenGL\\src\\Renderer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6D55FB91-A54C-45D0-8950-D46B839FF673}|OpenGL\\OpenGL.vcxproj|solutionrelative:OpenGL\\src\\Renderer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D55FB91-A54C-45D0-8950-D46B839FF673}|OpenGL\\OpenGL.vcxproj|C:\\dev\\OpenGL\\OpenGL\\src\\IndexBuffer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6D55FB91-A54C-45D0-8950-D46B839FF673}|OpenGL\\OpenGL.vcxproj|solutionrelative:OpenGL\\src\\IndexBuffer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6D55FB91-A54C-45D0-8950-D46B839FF673}|OpenGL\\OpenGL.vcxproj|C:\\dev\\OpenGL\\OpenGL\\src\\VertexArray.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6D55FB91-A54C-45D0-8950-D46B839FF673}|OpenGL\\OpenGL.vcxproj|solutionrelative:OpenGL\\src\\VertexArray.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6D55FB91-A54C-45D0-8950-D46B839FF673}|OpenGL\\OpenGL.vcxproj|C:\\dev\\OpenGL\\OpenGL\\src\\VertexBuffer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -39,8 +35,28 @@
       "RelativeMoniker": "D:0:0:{6D55FB91-A54C-45D0-8950-D46B839FF673}|OpenGL\\OpenGL.vcxproj|solutionrelative:OpenGL\\src\\VertexBuffer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6D55FB91-A54C-45D0-8950-D46B839FF673}|OpenGL\\OpenGL.vcxproj|C:\\dev\\OpenGL\\OpenGL\\src\\Renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6D55FB91-A54C-45D0-8950-D46B839FF673}|OpenGL\\OpenGL.vcxproj|solutionrelative:OpenGL\\src\\Renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D55FB91-A54C-45D0-8950-D46B839FF673}|OpenGL\\OpenGL.vcxproj|C:\\dev\\OpenGL\\OpenGL\\src\\Renderer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6D55FB91-A54C-45D0-8950-D46B839FF673}|OpenGL\\OpenGL.vcxproj|solutionrelative:OpenGL\\src\\Renderer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\dev\\OpenGL\\OpenGL\\res\\shaders\\Basic.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OpenGL\\res\\shaders\\Basic.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D55FB91-A54C-45D0-8950-D46B839FF673}|OpenGL\\OpenGL.vcxproj|C:\\dev\\OpenGL\\OpenGL\\src\\IndexBuffer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6D55FB91-A54C-45D0-8950-D46B839FF673}|OpenGL\\OpenGL.vcxproj|solutionrelative:OpenGL\\src\\IndexBuffer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D55FB91-A54C-45D0-8950-D46B839FF673}|OpenGL\\OpenGL.vcxproj|C:\\dev\\OpenGL\\OpenGL\\src\\IndexBuffer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6D55FB91-A54C-45D0-8950-D46B839FF673}|OpenGL\\OpenGL.vcxproj|solutionrelative:OpenGL\\src\\IndexBuffer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\dev\\OpenGL\\Dependencies\\GLFW\\include\\GLFW\\glfw3.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dependencies\\GLFW\\include\\GLFW\\glfw3.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,11 +66,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Helpers.h",
+              "DocumentMoniker": "C:\\dev\\OpenGL\\OpenGL\\src\\Helpers.h",
+              "RelativeDocumentMoniker": "OpenGL\\src\\Helpers.h",
+              "ToolTip": "C:\\dev\\OpenGL\\OpenGL\\src\\Helpers.h",
+              "RelativeToolTip": "OpenGL\\src\\Helpers.h",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAACsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-29T09:11:01.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VertexArray.cpp",
+              "DocumentMoniker": "C:\\dev\\OpenGL\\OpenGL\\src\\VertexArray.cpp",
+              "RelativeDocumentMoniker": "OpenGL\\src\\VertexArray.cpp",
+              "ToolTip": "C:\\dev\\OpenGL\\OpenGL\\src\\VertexArray.cpp",
+              "RelativeToolTip": "OpenGL\\src\\VertexArray.cpp",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-28T05:20:38.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VertexArray.h",
+              "DocumentMoniker": "C:\\dev\\OpenGL\\OpenGL\\src\\VertexArray.h",
+              "RelativeDocumentMoniker": "OpenGL\\src\\VertexArray.h",
+              "ToolTip": "C:\\dev\\OpenGL\\OpenGL\\src\\VertexArray.h",
+              "RelativeToolTip": "OpenGL\\src\\VertexArray.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-28T04:57:10.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "VertexBufferLayout.h",
+              "DocumentMoniker": "C:\\dev\\OpenGL\\OpenGL\\src\\VertexBufferLayout.h",
+              "RelativeDocumentMoniker": "OpenGL\\src\\VertexBufferLayout.h",
+              "ToolTip": "C:\\dev\\OpenGL\\OpenGL\\src\\VertexBufferLayout.h",
+              "RelativeToolTip": "OpenGL\\src\\VertexBufferLayout.h",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-28T04:59:15.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "glfw3.h",
               "DocumentMoniker": "C:\\dev\\OpenGL\\Dependencies\\GLFW\\include\\GLFW\\glfw3.h",
               "RelativeDocumentMoniker": "Dependencies\\GLFW\\include\\GLFW\\glfw3.h",
@@ -62,8 +130,7 @@
               "RelativeToolTip": "Dependencies\\GLFW\\include\\GLFW\\glfw3.h",
               "ViewState": "AgIAAKIRAAAAAAAAAAAswLURAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-15T02:10:58.651Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T02:10:58.651Z"
             },
             {
               "$type": "Document",
@@ -73,14 +140,14 @@
               "RelativeDocumentMoniker": "Dependencies\\GLEW\\include\\GL\\glew.h",
               "ToolTip": "C:\\dev\\OpenGL\\Dependencies\\GLEW\\include\\GL\\glew.h",
               "RelativeToolTip": "Dependencies\\GLEW\\include\\GL\\glew.h",
-              "ViewState": "AgIAAGsBAAAAAAAAAADgv3wBAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAGoCAAAAAAAAAAAuwIECAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-12-17T03:55:29.488Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "IndexBuffer.h",
               "DocumentMoniker": "C:\\dev\\OpenGL\\OpenGL\\src\\IndexBuffer.h",
               "RelativeDocumentMoniker": "OpenGL\\src\\IndexBuffer.h",
@@ -88,12 +155,11 @@
               "RelativeToolTip": "OpenGL\\src\\IndexBuffer.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-27T03:33:48.076Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-27T03:33:48.076Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "IndexBuffer.cpp",
               "DocumentMoniker": "C:\\dev\\OpenGL\\OpenGL\\src\\IndexBuffer.cpp",
               "RelativeDocumentMoniker": "OpenGL\\src\\IndexBuffer.cpp",
@@ -101,36 +167,35 @@
               "RelativeToolTip": "OpenGL\\src\\IndexBuffer.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-27T03:33:47.492Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-27T03:33:47.492Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "VertexBuffer.cpp",
               "DocumentMoniker": "C:\\dev\\OpenGL\\OpenGL\\src\\VertexBuffer.cpp",
               "RelativeDocumentMoniker": "OpenGL\\src\\VertexBuffer.cpp",
               "ToolTip": "C:\\dev\\OpenGL\\OpenGL\\src\\VertexBuffer.cpp",
               "RelativeToolTip": "OpenGL\\src\\VertexBuffer.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-27T03:24:38.324Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "VertexBuffer.h",
               "DocumentMoniker": "C:\\dev\\OpenGL\\OpenGL\\src\\VertexBuffer.h",
               "RelativeDocumentMoniker": "OpenGL\\src\\VertexBuffer.h",
               "ToolTip": "C:\\dev\\OpenGL\\OpenGL\\src\\VertexBuffer.h",
               "RelativeToolTip": "OpenGL\\src\\VertexBuffer.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-12-27T03:24:25.738Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Renderer.cpp",
               "DocumentMoniker": "C:\\dev\\OpenGL\\OpenGL\\src\\Renderer.cpp",
               "RelativeDocumentMoniker": "OpenGL\\src\\Renderer.cpp",
@@ -138,12 +203,11 @@
               "RelativeToolTip": "OpenGL\\src\\Renderer.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-27T03:20:55.919Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-27T03:20:55.919Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Renderer.h",
               "DocumentMoniker": "C:\\dev\\OpenGL\\OpenGL\\src\\Renderer.h",
               "RelativeDocumentMoniker": "OpenGL\\src\\Renderer.h",
@@ -151,12 +215,11 @@
               "RelativeToolTip": "OpenGL\\src\\Renderer.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-27T03:20:43.477Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-27T03:20:43.477Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Basic.shader",
               "DocumentMoniker": "C:\\dev\\OpenGL\\OpenGL\\res\\shaders\\Basic.shader",
               "RelativeDocumentMoniker": "OpenGL\\res\\shaders\\Basic.shader",
@@ -174,7 +237,7 @@
               "RelativeDocumentMoniker": "OpenGL\\src\\main.cpp",
               "ToolTip": "C:\\dev\\OpenGL\\OpenGL\\src\\main.cpp",
               "RelativeToolTip": "OpenGL\\src\\main.cpp",
-              "ViewState": "AgIAABkAAAAAAAAAAIAxwDcAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-14T01:14:16.854Z",
               "EditorCaption": ""
