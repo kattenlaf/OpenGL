@@ -9,7 +9,7 @@
 #include "VertexBuffer.h"
 #include "IndexBuffer.h"
 #include "VertexArray.h"
-#include "Helpers.h"
+#include "Shader.h"
 
 int main(void) {
     GLFWwindow* window;
@@ -69,13 +69,9 @@ int main(void) {
         IndexBuffer ib(indices, 6);
 
         std::string filepath = "res/shaders/Basic.shader";
-        ShaderProgramSource gfx_source = ParseShader(filepath);
-        unsigned int shader = CreateShader(gfx_source.VertexSource, gfx_source.FragmentSource);
-        GLCall(glUseProgram(shader));
-
-        GLCall(int location = glGetUniformLocation(shader, "u_Color"));
-        ASSERT(location != -1);
-        GLCall(glUniform4f(location, 0.8f, 0.3f, 0.8f, 1.0f));
+        Shader shader = Shader(filepath);
+        shader.Bind();
+        shader.SetUniform4f("u_Color", 0.8f, 0.3f, 0.8f, 1.0f);
 
         va.Unbind();
         GLCall(glUseProgram(0));
@@ -89,8 +85,8 @@ int main(void) {
             /* Render here */
             glClear(GL_COLOR_BUFFER_BIT);
 
-            GLCall(glUseProgram(shader));
-            GLCall(glUniform4f(location, r, 0.3f, 0.8f, 1.0f));
+            shader.Bind();
+            shader.SetUniform4f("u_Color", r, 0.3f, 0.8f, 1.0f);
 
             va.Bind();
             ib.Bind();
@@ -113,7 +109,7 @@ int main(void) {
             glfwPollEvents();
         }
 
-        GLCall(glDeleteProgram(shader));
+        shader.~Shader();
     }
     glfwTerminate();
     return 0;
