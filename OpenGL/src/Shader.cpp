@@ -30,12 +30,21 @@ void Shader::SetUniform4f(const std::string& name, float v0, float v1, float v2,
 // Private Methods
 
 unsigned int Shader::GetUniformLocation(const std::string& name) {
-    GLCall(int location = glGetUniformLocation(m_RendererID, name.c_str()));
-    // shader uniform location not found
-    if (location == -1) {
-        std::cout << "Warning: uniform '" << name << "' doesn't exist!" << std::endl;
+    // uniform not found in cache
+    std::unordered_map<std::string, int>::const_iterator found = m_UniformLocationCache.find(name);
+    if (found == m_UniformLocationCache.end())
+    {
+        GLCall(int location = glGetUniformLocation(m_RendererID, name.c_str()));
+        // shader uniform location not found
+        if (location == -1) {
+            std::cout << "Warning: uniform '" << name << "' doesn't exist!" << std::endl;
+        }
+        m_UniformLocationCache.insert({ name, location });
+        return location;
     }
-    return location;
+    else {
+        return found->second;
+    }
 }
 
 unsigned int Shader::CreateShader(const std::string& vertexShader, const std::string& fragmentShader) {
