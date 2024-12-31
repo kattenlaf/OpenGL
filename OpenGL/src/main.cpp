@@ -11,6 +11,7 @@
 #include "IndexBuffer.h"
 #include "VertexArray.h"
 #include "Shader.h"
+#include "Texture.h"
 
 int main(void) {
     GLFWwindow* window;
@@ -25,7 +26,7 @@ int main(void) {
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
     /* Create a windowed mode window and its OpenGL context */
-    window = glfwCreateWindow(640, 480, "Hello World", NULL, NULL);
+    window = glfwCreateWindow(1192, 670, "Hello World", NULL, NULL);
     if (!window) {
         glfwTerminate();
         return -1;
@@ -45,10 +46,10 @@ int main(void) {
 
     {
         float positions[]{
-            -0.5f, -0.5f,
-             0.5f, -0.5f,
-             0.5f,  0.5f,
-            -0.5f,  0.5f,
+            -0.5f, -0.5f, 0.0f, 0.0f, // 0
+             0.5f, -0.5f, 1.0f, 0.0f, // 1
+             0.5f,  0.5f, 1.0f, 1.0f, // 2
+            -0.5f,  0.5f, 0.0f, 1.0f  // 3
         };
 
         // Index buffer so we can render a square
@@ -57,11 +58,15 @@ int main(void) {
             2, 3, 0 // Second Triangle
         };
 
+        GLCall(glEnable(GL_BLEND));
+        GLCall(glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA));
+
         VertexArray va;
         // Number of vertices multiplied by the number of values stored in each vertex multiplied by the sizeof the type of the value in the vertex
-        VertexBuffer vb(positions, 4 * 2 * sizeof(float));
+        VertexBuffer vb(positions, 4 * 4 * sizeof(float));
         VertexBufferLayout layout;
-        layout.Push<float>(2);
+        layout.Push<float>(2); // vertex positions
+        layout.Push<float>(2); // texture coordinates
         va.AddBuffer(vb, layout);
 
         IndexBuffer ib(indices, 6);
@@ -70,6 +75,10 @@ int main(void) {
         Shader shader = Shader(filepath);
         shader.Bind();
         shader.SetUniform4f("u_Color", 0.8f, 0.3f, 0.8f, 1.0f);
+
+        Texture texture("res/textures/dragonball.png");
+        texture.Bind();
+        shader.SetUniform1i("u_Texture", 0);
 
         va.Unbind();
         ib.Unbind();
