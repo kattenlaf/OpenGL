@@ -3,6 +3,7 @@ C:\dev\OpenGL\OpenGL\src\main.cpp;C:\dev\OpenGL\OpenGL\Debug\main.obj
 C:\dev\OpenGL\OpenGL\src\Renderer.cpp;C:\dev\OpenGL\OpenGL\Debug\Renderer.obj
 C:\dev\OpenGL\OpenGL\src\Shader.cpp;C:\dev\OpenGL\OpenGL\Debug\Shader.obj
 C:\dev\OpenGL\OpenGL\src\Texture.cpp;C:\dev\OpenGL\OpenGL\Debug\Texture.obj
+C:\dev\OpenGL\OpenGL\src\vendor\glm\detail\glm.cpp;C:\dev\OpenGL\OpenGL\Debug\glm.obj
 C:\dev\OpenGL\OpenGL\src\vendor\stb_image\stb_image.cpp;C:\dev\OpenGL\OpenGL\Debug\stb_image.obj
 C:\dev\OpenGL\OpenGL\src\VertexArray.cpp;C:\dev\OpenGL\OpenGL\Debug\VertexArray.obj
 C:\dev\OpenGL\OpenGL\src\VertexBuffer.cpp;C:\dev\OpenGL\OpenGL\Debug\VertexBuffer.obj
