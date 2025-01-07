@@ -49,10 +49,10 @@ int main(void) {
 
     {
         float positions[]{
-            -0.5f, -0.5f, 0.0f, 0.0f, // 0
-             0.5f, -0.5f, 1.0f, 0.0f, // 1
-             0.5f,  0.5f, 1.0f, 1.0f, // 2
-            -0.5f,  0.5f, 0.0f, 1.0f  // 3
+            100.0f, 100.0f, 0.0f, 0.0f, // 0
+            200.0f, 100.0f, 1.0f, 0.0f, // 1
+            200.0f, 200.0f, 1.0f, 1.0f, // 2
+            100.0f, 200.0f, 0.0f, 1.0f  // 3
         };
 
         // Index buffer so we can render a square
@@ -76,14 +76,25 @@ int main(void) {
 
         // Create projection matrix [orthographic matrix]
         // Read up Model View Project Matrix u_MVP
-        // 596 : 335
-        glm::mat4 proj = glm::ortho(-1.15f, 1.15f, -1.5f, 1.5f, -1.0f, 1.0f);
+        // Model Matrix, View Matrix, Projection Matrix
+        // Represents the model or actual object being draw, 
+        // View Represents how the object is being seen (ie the camera), 
+        // Projection defines how the model is actually mapped to the screen
+        glm::mat4 proj = glm::ortho(-0.0f, 640.0f, 0.0f, 960.0f, -1.0f, 1.0f);
+        // Simulate moving camera to the right, thus moving everything else to the left
+        glm::mat4 view = glm::translate(glm::mat4(1.0f), glm::vec3(-100, 0, 0));
+        // Model matrix to move the rendered model as we desire
+        glm::mat4 model = glm::translate(glm::mat4(1.0f), glm::vec3(200, 200, 0));
+
+        // Multiplication is in inverse order memory layout of these matrices is in column major order, thus we can view this multiplication as
+        // from right to left, model * view * proj -> thus mvp
+        glm::mat4 mvp = proj * view * model;
 
         std::string filepath = "res/shaders/Basic.shader";
         Shader shader = Shader(filepath);
         shader.Bind();
         shader.SetUniform4f("u_Color", 0.8f, 0.3f, 0.8f, 1.0f);
-        shader.SetUniformMat4f("u_MVP", proj);
+        shader.SetUniformMat4f("u_MVP", mvp);
 
         Texture texture("res/textures/dragonball.png");
         texture.Bind();
