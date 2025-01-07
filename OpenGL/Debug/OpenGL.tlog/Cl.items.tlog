@@ -4,6 +4,10 @@ C:\dev\OpenGL\OpenGL\src\Renderer.cpp;C:\dev\OpenGL\OpenGL\Debug\Renderer.obj
 C:\dev\OpenGL\OpenGL\src\Shader.cpp;C:\dev\OpenGL\OpenGL\Debug\Shader.obj
 C:\dev\OpenGL\OpenGL\src\Texture.cpp;C:\dev\OpenGL\OpenGL\Debug\Texture.obj
 C:\dev\OpenGL\OpenGL\src\vendor\glm\detail\glm.cpp;C:\dev\OpenGL\OpenGL\Debug\glm.obj
+C:\dev\OpenGL\OpenGL\src\vendor\imgui\imgui.cpp;C:\dev\OpenGL\OpenGL\Debug\imgui.obj
+C:\dev\OpenGL\OpenGL\src\vendor\imgui\imgui_demo.cpp;C:\dev\OpenGL\OpenGL\Debug\imgui_demo.obj
+C:\dev\OpenGL\OpenGL\src\vendor\imgui\imgui_draw.cpp;C:\dev\OpenGL\OpenGL\Debug\imgui_draw.obj
+C:\dev\OpenGL\OpenGL\src\vendor\imgui\imgui_impl_glfw_gl3.cpp;C:\dev\OpenGL\OpenGL\Debug\imgui_impl_glfw_gl3.obj
 C:\dev\OpenGL\OpenGL\src\vendor\stb_image\stb_image.cpp;C:\dev\OpenGL\OpenGL\Debug\stb_image.obj
 C:\dev\OpenGL\OpenGL\src\VertexArray.cpp;C:\dev\OpenGL\OpenGL\Debug\VertexArray.obj
 C:\dev\OpenGL\OpenGL\src\VertexBuffer.cpp;C:\dev\OpenGL\OpenGL\Debug\VertexBuffer.obj
