@@ -7,8 +7,12 @@
       "RelativeMoniker": "D:0:0:{6D55FB91-A54C-45D0-8950-D46B839FF673}|OpenGL\\OpenGL.vcxproj|solutionrelative:OpenGL\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\dev\\OpenGL\\OpenGL\\res\\shaders\\Basic.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OpenGL\\res\\shaders\\Basic.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{6D55FB91-A54C-45D0-8950-D46B839FF673}|OpenGL\\OpenGL.vcxproj|C:\\dev\\OpenGL\\OpenGL\\res\\shaders\\Basic.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{6D55FB91-A54C-45D0-8950-D46B839FF673}|OpenGL\\OpenGL.vcxproj|solutionrelative:OpenGL\\res\\shaders\\Basic.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D55FB91-A54C-45D0-8950-D46B839FF673}|OpenGL\\OpenGL.vcxproj|C:\\dev\\OpenGL\\OpenGL\\src\\vendor\\imgui\\imgui_impl_glfw_gl3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6D55FB91-A54C-45D0-8950-D46B839FF673}|OpenGL\\OpenGL.vcxproj|solutionrelative:OpenGL\\src\\vendor\\imgui\\imgui_impl_glfw_gl3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6D55FB91-A54C-45D0-8950-D46B839FF673}|OpenGL\\OpenGL.vcxproj|C:\\dev\\OpenGL\\OpenGL\\src\\Renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -70,23 +74,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "epsilon.hpp",
-              "DocumentMoniker": "C:\\dev\\OpenGL\\OpenGL\\src\\vendor\\glm\\gtc\\epsilon.hpp",
-              "RelativeDocumentMoniker": "OpenGL\\src\\vendor\\glm\\gtc\\epsilon.hpp",
-              "ToolTip": "C:\\dev\\OpenGL\\OpenGL\\src\\vendor\\glm\\gtc\\epsilon.hpp",
-              "RelativeToolTip": "OpenGL\\src\\vendor\\glm\\gtc\\epsilon.hpp",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAD0AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-03T05:28:07.356Z"
+              "DocumentIndex": 2,
+              "Title": "imgui_impl_glfw_gl3.cpp",
+              "DocumentMoniker": "C:\\dev\\OpenGL\\OpenGL\\src\\vendor\\imgui\\imgui_impl_glfw_gl3.cpp",
+              "RelativeDocumentMoniker": "OpenGL\\src\\vendor\\imgui\\imgui_impl_glfw_gl3.cpp",
+              "ToolTip": "C:\\dev\\OpenGL\\OpenGL\\src\\vendor\\imgui\\imgui_impl_glfw_gl3.cpp",
+              "RelativeToolTip": "OpenGL\\src\\vendor\\imgui\\imgui_impl_glfw_gl3.cpp",
+              "ViewState": "AgIAAFIBAAAAAAAAAAAkwGUBAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-07T07:33:52.612Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "euler_angles.hpp",
               "DocumentMoniker": "C:\\dev\\OpenGL\\OpenGL\\src\\vendor\\glm\\gtx\\euler_angles.hpp",
               "RelativeDocumentMoniker": "OpenGL\\src\\vendor\\glm\\gtx\\euler_angles.hpp",
@@ -98,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Texture.h",
               "DocumentMoniker": "C:\\dev\\OpenGL\\OpenGL\\src\\Texture.h",
               "RelativeDocumentMoniker": "OpenGL\\src\\Texture.h",
@@ -110,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "stb_image.cpp",
               "DocumentMoniker": "C:\\dev\\OpenGL\\OpenGL\\src\\vendor\\stb_image\\stb_image.cpp",
               "RelativeDocumentMoniker": "OpenGL\\src\\vendor\\stb_image\\stb_image.cpp",
@@ -122,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "stb_image.h",
               "DocumentMoniker": "C:\\dev\\OpenGL\\OpenGL\\src\\vendor\\stb_image\\stb_image.h",
               "RelativeDocumentMoniker": "OpenGL\\src\\vendor\\stb_image\\stb_image.h",
@@ -134,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Shader.cpp",
               "DocumentMoniker": "C:\\dev\\OpenGL\\OpenGL\\src\\Shader.cpp",
               "RelativeDocumentMoniker": "OpenGL\\src\\Shader.cpp",
@@ -146,7 +151,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\dev\\OpenGL\\OpenGL\\src\\main.cpp",
+              "RelativeDocumentMoniker": "OpenGL\\src\\main.cpp",
+              "ToolTip": "C:\\dev\\OpenGL\\OpenGL\\src\\main.cpp",
+              "RelativeToolTip": "OpenGL\\src\\main.cpp",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAAwIoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-14T01:14:16.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "epsilon.hpp",
+              "DocumentMoniker": "C:\\dev\\OpenGL\\OpenGL\\src\\vendor\\glm\\gtc\\epsilon.hpp",
+              "RelativeDocumentMoniker": "OpenGL\\src\\vendor\\glm\\gtc\\epsilon.hpp",
+              "ToolTip": "C:\\dev\\OpenGL\\OpenGL\\src\\vendor\\glm\\gtc\\epsilon.hpp",
+              "RelativeToolTip": "OpenGL\\src\\vendor\\glm\\gtc\\epsilon.hpp",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAD0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-03T05:28:07.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Shader.h",
               "DocumentMoniker": "C:\\dev\\OpenGL\\OpenGL\\src\\Shader.h",
               "RelativeDocumentMoniker": "OpenGL\\src\\Shader.h",
@@ -158,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "VertexArray.cpp",
               "DocumentMoniker": "C:\\dev\\OpenGL\\OpenGL\\src\\VertexArray.cpp",
               "RelativeDocumentMoniker": "OpenGL\\src\\VertexArray.cpp",
@@ -170,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "VertexArray.h",
               "DocumentMoniker": "C:\\dev\\OpenGL\\OpenGL\\src\\VertexArray.h",
               "RelativeDocumentMoniker": "OpenGL\\src\\VertexArray.h",
@@ -182,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "VertexBufferLayout.h",
               "DocumentMoniker": "C:\\dev\\OpenGL\\OpenGL\\src\\VertexBufferLayout.h",
               "RelativeDocumentMoniker": "OpenGL\\src\\VertexBufferLayout.h",
@@ -194,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Renderer.cpp",
               "DocumentMoniker": "C:\\dev\\OpenGL\\OpenGL\\src\\Renderer.cpp",
               "RelativeDocumentMoniker": "OpenGL\\src\\Renderer.cpp",
@@ -206,20 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\dev\\OpenGL\\OpenGL\\src\\main.cpp",
-              "RelativeDocumentMoniker": "OpenGL\\src\\main.cpp",
-              "ToolTip": "C:\\dev\\OpenGL\\OpenGL\\src\\main.cpp",
-              "RelativeToolTip": "OpenGL\\src\\main.cpp",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAkwGUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-14T01:14:16.854Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Texture.cpp",
               "DocumentMoniker": "C:\\dev\\OpenGL\\OpenGL\\src\\Texture.cpp",
               "RelativeDocumentMoniker": "OpenGL\\src\\Texture.cpp",
@@ -231,7 +248,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Renderer.h",
               "DocumentMoniker": "C:\\dev\\OpenGL\\OpenGL\\src\\Renderer.h",
               "RelativeDocumentMoniker": "OpenGL\\src\\Renderer.h",
@@ -251,7 +268,8 @@
               "RelativeToolTip": "OpenGL\\res\\shaders\\Basic.shader",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2024-12-20T04:53:10.188Z"
+              "WhenOpened": "2024-12-20T04:53:10.188Z",
+              "EditorCaption": ""
             }
           ]
         }
