@@ -51,11 +51,12 @@ int main(void) {
     std::cout << glGetString(GL_VERSION) << std::endl;
 
     {
+        // Texture coordinates are set in anti-clockwise fashion
         float positions[]{
-            100.0f, 100.0f, 0.0f, 0.0f, // 0
-            200.0f, 100.0f, 1.0f, 0.0f, // 1
-            200.0f, 200.0f, 1.0f, 1.0f, // 2
-            100.0f, 200.0f, 0.0f, 1.0f  // 3
+            -50.0f, -50.0f, 0.0f, 0.0f, // 0
+             50.0f, -50.0f, 1.0f, 0.0f, // 1
+             50.0f,  50.0f, 1.0f, 1.0f, // 2
+            -50.0f,  50.0f, 0.0f, 1.0f  // 3
         };
 
         // Index buffer so we can render a square
@@ -85,7 +86,7 @@ int main(void) {
         // Projection defines how the model is actually mapped to the screen
         glm::mat4 proj = glm::ortho(-0.0f, 640.0f, 0.0f, 960.0f, -1.0f, 1.0f);
         // Simulate moving camera to the right, thus moving everything else to the left
-        glm::mat4 view = glm::translate(glm::mat4(1.0f), glm::vec3(-100, 0, 0));
+        glm::mat4 view = glm::translate(glm::mat4(1.0f), glm::vec3(0, 0, 0));
         // Model matrix to move the rendered model as we desire
         //glm::mat4 model = glm::translate(glm::mat4(1.0f), glm::vec3(200, 200, 0));
 
@@ -112,7 +113,9 @@ int main(void) {
         ImGui_ImplGlfwGL3_Init(window, true);
         ImGui::StyleColorsDark();
 
-        glm::vec3 translation = glm::vec3(200, 200, 0);
+        // Translation vectors
+        glm::vec3 translationA = glm::vec3(200, 200, 0);
+        glm::vec3 translationB = glm::vec3(400, 200, 0);
 
         float r = 0.0f;
         float increment = 0.05f;
@@ -123,13 +126,22 @@ int main(void) {
 
             ImGui_ImplGlfwGL3_NewFrame();
 
-            glm::mat4 model = glm::translate(glm::mat4(1.0f), translation);
-            glm::mat4 mvp = proj * view * model;
-
             shader.Bind();
-            shader.SetUniform4f("u_Color", r, 0.3f, 0.8f, 1.0f);
-            shader.SetUniformMat4f("u_MVP", mvp);
-            renderer.Draw(va, ib, shader);
+            {
+                glm::mat4 model = glm::translate(glm::mat4(1.0f), translationA);
+                glm::mat4 mvp = proj * view * model;
+                shader.SetUniformMat4f("u_MVP", mvp);
+
+                renderer.Draw(va, ib, shader);
+            }
+
+            {
+                glm::mat4 model = glm::translate(glm::mat4(1.0f), translationB);
+                glm::mat4 mvp = proj * view * model;
+                shader.SetUniformMat4f("u_MVP", mvp);
+
+                renderer.Draw(va, ib, shader);
+            }
 
             if (r > 1.0f) {
                 increment = -0.01f;
@@ -141,7 +153,8 @@ int main(void) {
             r += increment;
 
             {
-                ImGui::SliderFloat3("Translation", &translation.x, 0.0f, 640.0f);
+                ImGui::SliderFloat3("Translation A", &translationA.x, 0.0f, 640.0f);
+                ImGui::SliderFloat3("Translation B", &translationB.x, 0.0f, 640.0f);
                 ImGui::Text("Application average %.3f ms/frame (%.1f FPS)", 1000.0f / ImGui::GetIO().Framerate, ImGui::GetIO().Framerate);
             }
 
