@@ -1,0 +1,14 @@
+// Create projection matrix [orthographic matrix]
+// Read up Model View Project Matrix u_MVP
+// Model Matrix, View Matrix, Projection Matrix
+// Represents the model or actual object being draw, 
+// View Represents how the object is being seen (ie the camera), 
+// Projection defines how the model is actually mapped to the screen
+// m_Proj = glm::ortho(-0.0f, 640.0f, 0.0f, 960.0f, -1.0f, 1.0f);
+// Simulate moving camera to the right, thus moving everything else to the left
+// m_View = glm::translate(glm::mat4(1.0f), glm::vec3(0, 0, 0));
+// Model matrix to move the rendered model as we desire
+//glm::mat4 model = glm::translate(glm::mat4(1.0f), glm::vec3(200, 200, 0));
+//// Multiplication is in inverse order memory layout of these matrices is in column major order, thus we can view this multiplication as
+//// from right to left, model * view * proj -> thus mvp
+//glm::mat4 mvp = proj * view * model;
